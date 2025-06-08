@@ -1,6 +1,6 @@
 
 
-# Neural Network-Based Clone Detection
+# Clone Detector App: Siamese LSTM for Java Code Clones
 
 A deep learning-powered web application to detect structural similarities between two Java code snippets. This project uses a Siamese Long Short-Term Memory (LSTM) network to overcome the limitations of traditional token-based models and achieve high accuracy in identifying Type-1, Type-2, and Type-3 code clones.
 
