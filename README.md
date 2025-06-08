@@ -70,10 +70,10 @@ graph TD
     G1 --> H{Embedding Vector A};
     G2 --> I{Embedding Vector B};
 
-    subgraph Similarity Calculation
+    subgraph "Similarity Calculation"
         H --> J(Calculate Manhattan Distance);
         I --> J;
-        J --> K[Similarity Score (0-1)];
+        J --> K[Similarity Score];
     end
     
     K --> L[Final Prediction: Clone / Not Clone];
